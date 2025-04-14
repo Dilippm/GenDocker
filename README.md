@@ -1,4 +1,4 @@
-## 🐳 GenDocker - Dockerfile Generator
+# 🐳 GenDocker - Dockerfile Generator
 
 A GenAI-powered tool that generates optimized Dockerfiles based on your programming language input. This project leverages Ollama with the LLaMA3 model to create Dockerfiles that follow best practices for containerization.
 
@@ -14,18 +14,17 @@ A GenAI-powered tool that generates optimized Dockerfiles based on your programm
 
 ## 📋 Prerequisites
 
-# 🐙 Install Ollama
+### 🐙 Install Ollama
+
 For Linux
 
-
-curl -fsSL https://ollama.com/install.sh | sh
+        curl -fsSL https://ollama.com/install.sh | sh
 
 For macOS
 
+        brew install ollama
 
-brew install ollama
-
-# ▶️ Start Ollama Service
+### ▶️ Start Ollama Service
 
 
 ollama serve
@@ -51,6 +50,6 @@ ollama pull llama3.2:1b
 
         pip install -r requirements.txt
 
-# 🧠 Run the Application
+## 🧠 Run the Application
 
 python3 generate_dockerfile.py
