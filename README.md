@@ -53,3 +53,21 @@ ollama pull llama3.2:1b
 ## 🧠 Run the Application
 
 python3 generate_dockerfile.py
+
+## 📄 Example Output
+
+Input:
+        Language: Node.js
+        
+Output:
+        FROM node:18-alpine
+        WORKDIR /app
+        COPY package*.json ./
+        RUN npm install
+        COPY . .
+        CMD ["node", "index.js"]
+
+
+
+
+
