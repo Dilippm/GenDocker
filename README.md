@@ -2,7 +2,7 @@
 
 A GenAI-powered tool that generates optimized Dockerfiles based on your programming language input. This project leverages Ollama with the LLaMA3 model to create Dockerfiles that follow best practices for containerization.
 
-## 📦 Features
+## 📦 Features 
 
 🔍 AI-powered Dockerfile generation
 
